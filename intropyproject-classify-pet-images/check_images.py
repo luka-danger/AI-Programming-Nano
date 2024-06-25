@@ -4,8 +4,8 @@
 #
 # TODO 0: Add your information below for Programmer & Date Created.                                                                             
 # PROGRAMMER: Nate
-# DATE CREATED: June 22, 2024                                
-# REVISED DATE: 
+# DATE CREATED:                               
+# REVISED DATE: 6/22/24
 # PURPOSE: Classifies pet images using a pretrained CNN model, compares these
 #          classifications to the true identity of the pets in the images, and
 #          summarizes how well the CNN performed on the image classification task. 
@@ -41,6 +41,10 @@ from print_results import print_results
 def main():
     # TODO 0: Measures total program runtime by collecting start time
     start_time = time()
+
+    # Use sleep(elapsed_time) to test runtime 
+    # 10 is just an example time
+    # sleep(10)
     
     # TODO 1: Define get_input_args function within the file get_input_args.py
     # This function retrieves 3 Command Line Arugments from user as input from
