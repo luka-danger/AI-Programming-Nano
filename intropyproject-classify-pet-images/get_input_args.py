@@ -45,6 +45,9 @@ def get_input_args():
     # Create 3 command line arguments (Pet Images Folder, CNN Model, Dog Names Text File)
     parser.add_argument('--dire', type=str, default='pet_images/', 
                         help='pet images folder')
+    
+    parser.add_argument('--arch', type=str, default='vgg',
+                        help='CNN Model Architecture')
 
     # Replace None with parser.parse_args() parsed argument collection that 
     # you created with this function 
